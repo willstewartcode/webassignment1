@@ -1,0 +1,158 @@
+/*
+  GENERAL
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 15% 25%;
+  font-family: 'Barlow', sans-serif;
+  background-color: #07090f;
+  font-size: 2.4rem;
+}
+
+body, a {
+  color: #bbbbbb;
+}
+
+h1 {
+  margin: 7.5rem 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #89ddff;
+  margin-bottom: 1rem;
+}
+
+p, blockquote, address, ol {
+  line-height: 1.5;
+}
+
+b {
+  font-style: normal;
+  font-weight: 600;
+  color: #f07178;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+img {
+  border: solid 3px #f07178;
+}
+
+.section-img {
+  height: 22rem;
+  margin-right: 3rem;
+}
+
+section {
+  display: flex;
+  height: 100%;
+}
+
+section, figure {
+  margin-bottom: 7.5rem;
+}
+
+.quote, .address {
+  flex-direction: column;
+}
+
+/*
+  NAVIGATION
+*/
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #f07178;
+}
+
+/*
+  PAGE HEADERS
+*/
+
+figure img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.fig-group {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.group2 {
+  margin-top: 4rem;
+}
+
+.group2 .fig-child, .education, .fun-facts {
+  width: 40rem;
+}
+
+.fig-child {
+  margin: 0;
+}
+
+.fig-child, .hobbies {
+  width: 60rem;
+}
+
+.child1 {
+  margin-bottom: 5rem;
+}
+
+/*
+  LISTS
+*/
+
+ol {
+  margin-bottom: 4rem;
+}
+
+ol li {
+  margin-left: 2rem;
+}
+
+.travel-places {
+  list-style-type: lower-alpha;
+  margin-bottom: 0;
+}
+
+.facts-list li {
+  margin-bottom: 2rem;
+}
